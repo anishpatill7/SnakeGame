@@ -1,0 +1,16 @@
+while not game_over:
+ 
+        while game_close == True:
+            dis.fill(white)
+            message("       Press P to Play Again or Q to Quit", black)
+            Your_score(Length_of_snake - 1)
+            pygame.display.update()
+ 
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_q:
+                        game_over = True
+                        game_close = False
+                    if event.key == pygame.K_p:
+                        gameLoop()
+ 

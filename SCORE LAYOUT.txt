@@ -1,0 +1,3 @@
+def Your_score(score):
+    value = score_font.render("                            Top Score: " + str(score), True, black)
+    dis.blit(value, [0, 0])
