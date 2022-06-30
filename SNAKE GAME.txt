@@ -27,7 +27,7 @@ score_font = pygame.font.SysFont("calibri", 35)
  
 
 def Your_score(score):
-    value = score_font.render("                            Top Score: " + str(score), True, black)
+    value = score_font.render("Top Score:" + str(score), True, black)
     dis.blit(value, [0, 0])
  
  
