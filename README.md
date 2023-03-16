@@ -53,5 +53,5 @@ IF KEY P PRESSED? (IF YES THEN START THE GAME AGAIN)<br>
 <h4 align="left">
 A fun and entertaining game can be programmed with simple python programming and pip python package. This game is not the greatest but it is a timeless classic and but it does give you an idea of what you can achieve with a relatively simple python program and perhaps the basis by which to extend the principles and create more interesting games.</h4>
 
-<h4 align="center">Thank You!</h4> 
+<br><br><h4 align="center">Thank You!</h4> 
 
